@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card mx-auto shadow p-4" style="max-width: 400px;">
+    <h3 class="text-center mb-4">Login</h3>
+    <form method="POST" action="{{ url_for('login') }}">
+        <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" placeholder="Enter a username" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" placeholder="Enter Password" required>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-lg w-100">Login</button>
+    </form>
+    <p class="text-center mt-3">No Account? <a href="{{ url_for('register') }}">Register here</a></p>
+</div>
+{% endblock %}

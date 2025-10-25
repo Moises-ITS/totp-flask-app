@@ -1,0 +1,46 @@
+{
+  "Mooseour": {
+    "password": "$2b$12$0OK7vdVGrG403QLjEENICOeXe8uplV5QV.OyIu7wBNx2qJ1Td4yNW",
+    "secret": "gAAAAABo9twG4m9GNRhu6VTJUqOhdUuBe3X2mjpPh5n19QgOZRZT8jiaBlX-IFbxD86wxBYsbAI-i5u6iT0b9C8Ag-ugu-j0XjLu5rhFdh4Sxmk7n26WNb_wtoRdXWOGMTq8wq206QDX"
+  },
+  "Gabriela": {
+    "password": "$2b$12$fCm93oT0nNbzbcfXSr/JdO0MtiaH7YtVjmYB0alXZ4hGFLcpghCJe",
+    "secret": "gAAAAABo-jSyRW2tbobsd6mMn896wPXJYi9TCM1UUtmZrd3QaY1VrRYupuPDZB1KMlzyyCL98LNhz8EWpIGgQdpXRJj5Pe3lUdPwTAgJk8_Q3M6IDVGRPgOUDDLHzhTnYhPqDUHeabPv"
+  },
+  "Corey": {
+    "password": "$2b$12$noqLN9ChR/WAESLd7kdUju5ZXZ.xrd1ujUwTWZrjbF1u8CSswnL7e",
+    "secret": "gAAAAABo-jWm07jx9Ivj9zK16ssG24zRDsNCv8aCVYLT0GPmiSqkuiANqBPogO58teyXzpe4LXtP-6V13ZP2TDF4734BPF2GU6Ong1UPyrGWStIs5WLPjBY9P1x4wOHZhx3Hy4kOYitd"
+  },
+  "Kendrick": {
+    "password": "$2b$12$PLbmm8c92jXiQewD1ZLGJutA4qEEQCC4gTNAAlVwxs5tSFpl3Z0Ay",
+    "secret": "gAAAAABo-jbGBRXQah3Lo-qaxAzSuBUo-dw8rNYEYJEdHVqT8kX-jFms8zRe06FbOP9S-hT4J7zU45kv75NhHY2WTds4rvnPKxVYK7mxX2M8XJPZEThwBKI5BQu1gtMnSWohoSuNk9Zy"
+  },
+  "Jenkin": {
+    "password": "$2b$12$A5rsGTAqNfWBRFWqG.G28ut1gSTHN2Lf/7ri0jyp3y5wllwFqduTG",
+    "secret": "gAAAAABo-jdXQIoayUL8heLUqhhYDpm4uZGoipQ8OtHaMuO19wW8bti2WqR9-iETGUxXRpbHjTUp4M5f5DP5KK63jUtWlNxEGz7SQGFpsSUdpqzcs8notmLAZ8lGqry-qpIoNM3Z5k76"
+  },
+  "Kamar": {
+    "password": "$2b$12$WMIL10ShOZWgsqM9bJlD5eObIDAEYO11I7IfRfQ756UHgl5Ez0ROW",
+    "secret": "gAAAAABo-jeZloeEenS6UjhkXGDs7tKEUnXsJTKg8G6zLWdT7hmFgC1guOv7r8RAdvMMIAq7QxLBvuRHa6dN2XspoBuPKWq0YbinzNETeLVSjjSux0E3auapIp87CKSNOvnxMAPSezFw"
+  },
+  "Ulisis": {
+    "password": "$2b$12$e5/lOWf50PU2DuVfKEicduNkOr0oKKvrHAnhYdzh1fF19fzMQSPjm",
+    "secret": "gAAAAABo-jhm9JPEeE-Moi5OeNizL2mQCg05ruK2vBdMF-bK67tMEyzkUpSbLKbBzqVxHhjXnKfuWEgX1moE2fNc8rhUXt76Atk_KMJef5H2-qkkoH8Zm1cKtpsBhEDvsEEWikhQrbc6"
+  },
+  "Kendik": {
+    "password": "$2b$12$mzj8hZxOYka8vMoMaUufyeS3kLrKp2kH3YATkiDLnKdhC0pD808P2",
+    "secret": "gAAAAABo-jkSQp7ZXNwmjeufdNw2dGVry0gkgoaiP_C5ZKHqEfJqTw3FV0hOm8uMqGLlYr8l5LGkVeUZjIL4N5jKMzVcMF4kyc5cBr_VyNSSDNbu2Ab18y0Isc89F_BVKmdAsuNilENd"
+  },
+  "Username": {
+    "password": "$2b$12$qr6Tfqv3Xy9t5bVoTX77iOu5rBvofJ8zLEuQCLw902aQrwvDdzUja",
+    "secret": "gAAAAABo-jmh0AOmY_alXdvNDK1b8-wa5YVg5LLdAj3oZhaXPUo2dp_5EA4qR8q_5UDShX73EbyRT1CDPk8e4HZV6UJeEzKAoiLXk1ejLDsfs7zORMQwXB0O5GpttSMhRvg0DkSHHitR"
+  },
+  "Tommy": {
+    "password": "$2b$12$1ZYium/6R0f02dH05whd../0ECcLyO6KODjNYqk.B7RXumbj1nmge",
+    "secret": "gAAAAABo-jss2qfhPN9_z-qzI71eTUyeQygdS6lVHbgxjQqpItM3C1oRpDTG5IqtC6eLF3RmTdFu5N5tQcjrJLUwpDA_ZWXu3uLqSb7qbB8xhFcMmdp7uBl7cSToqm3ZGSJRVjpLLli5"
+  },
+  "Clark": {
+    "password": "$2b$12$dfT.33VTi5nR9bEe/3Q0xuKKAIjKxjM9DgdkMR.kJhDm8hn9iIuDq",
+    "secret": "gAAAAABo_BEtfepIt5jNoF5t9oeyA47bQyAxh7VTTxW5S5tyzqmdJZUGZoHeE538XIUXW0Vu9Ukmzq2YblDX8ap5dtXBMSMsWpC5YN1roNV9PIvnxoL8uQJwrYnmHRsvLxt-2zdViuSb"
+  }
+}

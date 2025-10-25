@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card mx-auto shadow p-4" style="max-width: 400px;">
+    <h3 class="text-center mb-4">Register</h3>
+    <form method="POST" action="{{ url_for('register') }}">
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" required>
+            <div class="form-text">
+                Must be 12+ characters and include uppercase, lowercase, number, and symbol.
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Register</button>
+    </form>
+    <p class="text-center mt-3">Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+</div>
+{% endblock %}

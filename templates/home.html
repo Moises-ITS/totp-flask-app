@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-5 text-center">
+    <h2>Welcome, {{ session['username'] }}!</h2>
+    <p class="lead mt-2">Select an option from below</p>
+    <div class="d-flex justify-content-center gap-3 mt-4">
+        <a href="{{ url_for('test') }}" class="btn btn-success btn-lg">Verify Token</a>
+        <a href="{{ url_for('show_qr') }}" class="btn btn-success btn-lg">Show QR Code</a>
+    </div>
+</div>
+
+{% endblock %}
