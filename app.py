@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, redirect, url_for, flash, ses
 #--------------------------
 #flask setup
 #---------------------------
-app = Flask(__name__)
+app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), "static"), template_folder=os.path.join(os.path.dirname(__file__), "templates"))
 app.secret_key = "supersecretkey"
 #------------------------------
 #helper functions
@@ -81,7 +81,7 @@ def login_user(username, password):
         os.makedirs("static")
 
     qr_filename = f'{username}_qrcode.png'
-    qr_path = os.path.join("static", qr_filename)
+    qr_path = os.path.join(app.static_folder, qr_filename)
     img.save(qr_path)
 
     session["qr_path"] = qr_filename
@@ -125,7 +125,7 @@ def register_user(username, password):
         os.makedirs("static")
 
     qr_filename = f'{username}_qrcode.png'
-    qr_path = os.path.join("static", qr_filename)
+    qr_path = os.path.join(app.static_folder, qr_filename)
     img.save(qr_path)
 
     return True, qr_filename
@@ -228,4 +228,3 @@ def Logout():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
-
